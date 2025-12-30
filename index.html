@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Saugat Shah — web developer">
+    <link rel="stylesheet" href="style.css">
+    <title>Saugat Shah — Web Developer</title>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Saugat Shah</h1>
+        <button id="menu" class="menu" aria-label="Toggle navigation">☰</button>
+        <nav id="navbar" aria-label="Primary">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home" aria-label="Home">
+            <div class="home-text">
+                <h2>Hello, I'm <span class="accent">Developer</span></h2>
+                <p>I am a beginner web developer building real projects, hosting and learning continuously.</p>
+                <a class="btn" href="public/Microprocessor_Last_Minute_Preparation_BCA_2nd_Sem_TU.pdf" download>Hire Me</a>
+            </div>
+            <figure class="home-image">
+                <img src="public/wellpaper.jpg" alt="Portrait of Saugat Shah" width="300" height="300">
+            </figure>
+        </section>
+
+        <section id="about" class="about" aria-label="About">
+            <h2>About Me</h2>
+            <p>I am a begainner website developer  working with frontend and backend frameworks.</p>
+            <p><strong>My Skills:</strong></p>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>python</li>
+                <li>java</li>
+                <li>Git / GitHub</li>
+            </ul>
+        </section>
+
+        <section id="services" class="services" aria-label="Services">
+            <h2>My Services</h2>
+            <div class="service-cards">
+                <article class="service-card">
+                    <h3>Website Development</h3>
+                    <p>I build user-friendly websites using HTML, CSS and JavaScript.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Website Design</h3>
+                    <p>I design accessible and responsive interfaces.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Hosting</h3>
+                    <p>I can host your website on GitHub Pages or similar services.</p>
+                </article>
+                <article class="service-card">
+                    <h3>backend</h3>
+                    <p>python with libaries like opencv (eye of computer) and java </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact" aria-label="Contact">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="How can I help?" required></textarea>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 | Saugat Shah</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
